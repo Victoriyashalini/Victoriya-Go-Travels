@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Footer</title>
+	<style>
+		body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: -40px 0;
+}
+
+.containersss {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 25%;
+    padding: 20px;
+}
+
+.footer-section h2 {
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.btn {
+    background-color: #ffd700;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    color: #ccc;
+    font-size: 0.8em;
+}
+
+.footer-bottom a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+.social-icons a{
+	margin-right: 10 px;
+}
+	</style>
+</head>
+<body>
+
+  <footer>
+    <div class="containersss">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h2>About Us</h2>
+		  <p>We pride ourselves on curating exceptional travel packages that cater to your every desire.Expect nothing less than top-notch accommodations,<br>immersive cultural encounters,and hassle-free travel arrangements.Join us in creating stories that transcend bordors and cultures. Your adventures awaits!<br>
+			We invite you to embrace the unknown,savor the exceptional,and redefine your travel story.
+					</div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Packages</a></li>
+            <li><a href="honeymoon.html">HoneyMoon</a></li>
+            <li><a href="grouptours.html">Group Tours</a></li>
+			<li><a href="contactus.html">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact-form">
+          <h2>Contact Us</h2>
+          <form action="#" method="post">
+            <input type="email" name="email" class="text-input contact-input" placeholder="Your email address" required>
+            <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer-section social">
+          <h2>Follow Us</h2>
+          <div class="social-icons">
+			<a href="https://www.facebook.com/yourpage" target="_blank"><img src="images/facebook.png " style="width: 30px; height: 30px; object-fit: cover;"></a>
+			<a href="https://www.instagram.com/yourusername" target="_blank"><img src="images/instagram.png " style="width: 30px; height: 30px; object-fit: cover;"></a>
+			<a href="https://www.twitter.com/yourhandle"target="_blank"><img src="images/twitter.png" style="width: 30px; height: 30px; object-fit: cover;"></a>
+		 
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Go Travel All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Set the current year dynamically
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

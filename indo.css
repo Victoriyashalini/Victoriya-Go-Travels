@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+13px:regular);
+body{
+	font-family: 'Times New Roman', Times, serif;
+}
+.responsive-container {
+	position: relative;
+	width: 100%;
+	max-width: 1200px; /* Adjust the maximum width as needed */
+	
+  }
+
+  /* Style for the background image */
+  .background-image {
+	width: 1800px;
+	height: auto;
+	
+	object-fit: cover;
+  }
+
+  /* Style for the overlay text */
+  .overlay-text {
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	color: rgb(240, 238, 231);
+	text-align: center;
+	font-size: 64px;
+	font-weight: bold;
+  }
+
+  /* Style for the search box */
+  .search-box {
+	position: absolute;
+	top: 60%;
+	left: 70%;
+	transform: translateX(-50%);
+	width: 70%;
+	max-width: 400px; /* Adjust the maximum width as needed */
+	padding: 10px;
+	border: none;
+	border-radius: 2px;
+	font-size: 16px;
+  }
+  #navitem{
+	color: black;
+	font-size: 20px;
+	
+	font-weight: bold;
+  }
+  #navitem:hover{
+	color: aqua;
+	transition: 1 ease-in;
+  }
+  #navs{
+	color: black;
+	font-size: 20px;
+	
+	font-weight: bold;
+  }
+  .nav {
+	background-color: rgb(255, 255, 255);
+  }
+  .content{
+	display: flex;
+	justify-content: space-around;
+
+  }
+  .h1bali{
+	margin: 10px;
+	padding: 10px;
+  }
+  .row{
+	margin:-20px;
+	padding: 20px;
+  }
+#carouselExampleFade{
+	height: 400px;
+}
+#carouselExampleFade img{
+	width: 100%;
+	height: auto;
+}
+.carousel-item img{
+	width: 900px;
+	height: 450px;
+}
+.col{
+	margin: 10px;
+	padding: 10px;
+}
+.col-8{
+	margin-left: -100px;
+}
+.btn-primary{
+	margin: 10px;
+}
+.form-control{
+	
+	border: 1px solid rgb(228, 21, 21);
+	border-radius: 5px;
+}
+
+.light{
+	color: rgb(62, 60, 60);
+}
+.para-container{
+	margin: 20px;
+	padding: 30px;
+	
+}
+.itinery{
+	margin: 20px;
+	padding: 15px;
+}
+.days{
+	background-color: white;
+	color: orange;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.paragraph{
+	text-align: justify;
+	overflow: hidden;
+}
+.para-container{
+	width: 1500px;
+	height: 600px;
+}
+form{
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+.amazing-bali{
+	margin: 10px;
+}
+.amazing-bali h4{
+color: orange;
+font-weight: bold;
+}
+.amazing-bali h4 p{
+	color: rgb(69, 68, 66);
+	}
+	.ccontain text{
+		padding: 10px;
+	}
+
+#carouselExampleFade{
+
+	width: 600px;
+
+	 }
+.text-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+}
+.box{
+	flex: 0 0 calc(33.33%-20px);
+	margin: 10px;
+	padding: 20px;
+	box-shadow:10px 10px 20px 0px black.-10px -10px 20px 0px white ;
+	border-radius: 8px;
+	overflow-y: auto;
+	max-height: 200px;
+	
+}
+.box h4{
+	color: orange;
+}
+.box p{
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0;
+}
+
+	 .col{
+		 margin: 0;
+		 padding: 0;
+	 }
+	 @media (max-width: 768px) {
+		 .carousel-inner img {
+		  height: 400px; /* Adjust the height as needed for smaller screens */
+ }
+ .responsive-container img{
+	height: 400px;
+ }
+ .overlay-text {
+	visibility: hidden;
+ }
+	 }
+
+  
+	/* Add more responsive styling as needed */
+  
